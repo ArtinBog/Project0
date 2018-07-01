@@ -1,0 +1,77 @@
+html
+{
+    text-align: center;
+    font-family: Andale Mono, sans-serif;
+    color: #414142;
+}
+
+body
+{
+
+}
+
+h1
+{
+    font-size: 30px;
+    margin: 160px 0px 0px 0px;
+}
+
+h4
+{
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 200px;
+}
+
+ul
+{
+    margin-top: 0px 0px 0px 0px;
+    list-style-type: none;
+    padding: 0px;
+    color: #414142;
+}
+
+li
+{
+    margin: 20px;
+}
+
+footer
+{
+    margin-top: 250px;
+    display: block;
+    text-align: center;
+}
+
+a:link
+{
+    color: #414142;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active
+{
+    color: #D0021B;
+    text-decoration: none;
+}
+img
+{
+    width: 400px;
+
+}
+
+.photos
+{
+    margin: auto;
+}
+
+#title
+{
+    margin-bottom: 30px;
+}
