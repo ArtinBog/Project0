@@ -1,0 +1,85 @@
+$font-color: #414142;
+$font-family: Andale Mono, sans-serif;
+$bgColour: white;
+$hp-text-alignment: center;
+
+
+html {
+  color: $font-color;
+  background: $bgColour;
+  font-family: $font-family;
+}
+
+.home-center
+{
+  text-align: $hp-text-alignment;
+  font-family: $font-family;
+}
+
+body
+{
+   font-family: $font-family;
+}
+
+h1
+{
+  font-size: 30px;
+  margin: 60px 0px 40px 0px;
+  text-align: $hp-text-alignment;
+}
+
+#h1_home
+{
+  margin: 60px 0px 0px 0px;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 80px;
+  text-align: $hp-text-alignment;
+  font-family: $font-family;
+  color: $font-color;
+
+}
+
+ul {
+  margin-top: 60px 0px 0px 0px;
+  list-style-type: none;
+  padding: 0px;
+  color: $font-color;
+  text-align: center;
+  font-family: $font-family;
+}
+
+li {
+  margin: 20px;
+  color: red;
+}
+
+img
+{
+  width: 400px;
+  content: center;
+  margin-bottom: 10px;
+}
+
+a {
+  &:link {
+    color: $font-color;
+    text-decoration-color: $font-color;
+  }
+  &:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  &:active {
+    color: #D0021B;
+    text-decoration-color: $font-color;
+  }
+  &:visited {
+    color: $font-color;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

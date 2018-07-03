@@ -1,16 +1,54 @@
 <! DOCTYPE html>
+<!-- Project 0: Artin Bogdanov: -->
+<!--July 3, 2018-->
+
+<!--This is responsive mobile-friendly Music page. Which contains YouTube music videos made by Artin Bogdanov-->
+
 <html>
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
         <title>
             my music
         </title>
-        <link rel="stylesheet" href="hp_styles.css">
     <head>
-    <h1>my music</h1>
-    <header></header>
     <body>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/W3wdBph83vo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <nav class="navbar navbar-light bg-light sticky-top navbar-expand-lg" id="main-nav">
+            <a class="navbar-brand" href="index.html">
+                <img id="nav_logo" src="imgs/cube.png" alt="Artin's Logo" style="max-width:200px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="su_exp.html">start-up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music_exp.html">music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photo_exp.html">photos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>my music</h1>
+        <div class="row">
+            <div id="content" class="col-lg-12 col-md-12 col-sm-12">
+                <iframe class="rounded mx-auto d-block rounded" width="560" height="315" src="https://www.youtube.com/embed/W3wdBph83vo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
         </div>
+        <nav class="navbar fixed-bottom bg-white">
+            <a class="nav-link" href="contac.html">about me</a>
+            <a class="nav-link" href="about.html">contact</a>
+        </nav>
     </body>
 <html>

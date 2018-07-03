@@ -1,24 +1,71 @@
 <! DOCTYPE html>
+<!-- Project 0: Artin Bogdanov: -->
+<!--July 3, 2018-->
+
+<!--This is responsive mobile-friendly Photos page. Which contains photos taken by Artin Bogdanov-->
+
 <html>
     <head>
-        <link rel="stylesheet" href="hp_styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
         <title>
             my photos
         </title>
     <head>
-    <h1 id="title">my photos</h1>
-    <header></header>
     <body id="photos">
 
-        <img src="imgs/IMG_8249.JPG">
-        <img src="imgs/IMG_8250.JPG" alt="the most beautiful woman in the history of himanity" usemap="#kasia">
-        <img src="imgs/IMG_8253.JPG">
-        <img src="imgs/IMG_8254.JPG">
-        <img src="imgs/IMG_8256.JPG">
-        <img src="imgs/IMG_8257.JPG">
+        <!-- Top Navigation with links.  -->
+        <nav class="navbar navbar-light bg-light sticky-top navbar-expand-lg" id="main-nav">
+            <a class="navbar-brand" href="index.html">
+                <img id="nav_logo" src="imgs/cube.png" alt="Artin's Logo" style="max-width:200px">
+            </a>
 
-        <map name="kasia">
-            <area shape="rect" coords="34,44,270,350" alt="Computer" href="imgs/IMG_1502.JPG">
-        </map>
+            <!-- Hamburger menu per lower screen. Responsive changes-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav-bar links -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="su_exp.html">start-up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music_exp.html">music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photo_exp.html">photos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Title of the page-->
+        <h1>my photos</h1>
+
+        <!-- Images -->
+        <div class="container center-block rounded mx-auto d-block text-center col-lg-9">
+            <img src="imgs/IMG_8249.JPG">
+            <img src="imgs/IMG_8250.JPG" alt="the most beautiful woman in the history of himanity" usemap="#kasia">
+            <img src="imgs/IMG_8253.JPG">
+            <img src="imgs/IMG_8254.JPG">
+            <img src="imgs/IMG_8256.JPG">
+            <img src="imgs/IMG_8257.JPG">
+            <map name="kasia">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="imgs/IMG_1502.JPG">
+            </map>
+        </div>
+
+        <!-- Footer -->
+        <nav class="navbar fixed-bottom bg-white">
+            <a class="nav-link" href="contac.html">about me</a>
+            <a class="nav-link" href="about.html">contact</a>
+        </nav>
+
     </body>
 <html>
