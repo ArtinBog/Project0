@@ -70,10 +70,18 @@ footer {
   }
 }
 @media (max-width: 499px) {
-  img {
+  img, iframe {
     width: 350px;
   }
 }
+#content {
+  text-align: center;
+}
+
+iframe {
+  margin: 10px;
+}
+
 a:link {
   color: #414142;
   text-decoration-color: #414142;
